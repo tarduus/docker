@@ -1,0 +1,7 @@
+[user]
+	email = yseo@d-teg.com
+	name = Yeongjin Seo
+[http "https://qpm-git.qualcomm.com"]
+	followRedirects = true
+[color]
+	ui = auto

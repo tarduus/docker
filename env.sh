@@ -1,0 +1,15 @@
+# Docker
+
+CWD=`pwd`
+HOST_WORKDIR=`realpath $CWD/..`
+ID=`whoami`
+
+echo $HOST_WORKDIR
+
+DOCKER_GROUP="mygroup"
+DOCKER_HOSTNAME="qcs6490-build"
+DOCKER_IMAGE_TAG="qcs6490-image-$ID"
+DOCKER_WORKDIR=$HOST_WORKDIR
+DOCKER_CONTAINER="qcs6490-container-$ID"
+
+

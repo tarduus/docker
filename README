@@ -1,0 +1,21 @@
+
+sudo usermod -aG docker `whoami`
+
+
+
+
+1. build docker image
+- ./build.sh
+
+2. run docker image
+- ./run.sh
+
+3. exec another container
+- ./exec.sh
+
+
+4. docker container
+- docker ps
+- docker stop <CONTAINER-ID>
+- docker rm <CONTAINER-ID>
+
